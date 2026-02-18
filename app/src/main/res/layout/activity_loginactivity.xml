@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌾 AgroFlow Login"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="18sp"/>
+
+</LinearLayout>
